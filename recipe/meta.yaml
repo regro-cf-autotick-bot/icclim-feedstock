@@ -1,5 +1,5 @@
 {% set name = "icclim" %}
-{% set version = "5.0.2" %}
+{% set version = "5.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/icclim-{{ version }}.tar.gz
-  sha256: 653cdad97fe565db3b71bab74a797ba394074e2838bd0d5343050330de92d09b
+  sha256: 96f0643e15f4e695946062db4b2746c9228d634dfc72b38f416de871b744d066
 
 build:
   number: 0
@@ -20,17 +20,17 @@ requirements:
     - python >=3.8
     - pip
     - setuptools
-    - xarray
-    - xclim >=0.33
   run:
     - python >=3.8
     - cftime
-    - dask
+    - dask <2022.01.1
     - netCDF4
     - numpy
     - pyyaml
     - xarray
-    - xclim >=0.33
+    - xclim >=0.34
+    - rechunker >=0.3,<0.4
+    - psutil
 
 test:
   requires:
