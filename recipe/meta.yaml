@@ -1,5 +1,5 @@
 {% set name = "icclim" %}
-{% set version = "5.1.0" %}
+{% set version = "5.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/icclim-{{ version }}.tar.gz
-  sha256: 96f0643e15f4e695946062db4b2746c9228d634dfc72b38f416de871b744d066
+  sha256: 56799bd9c7ab9ef80aaf3cc969428edf81e67a1d367a4ea2ec0621e6de19c830
 
 build:
   number: 0
@@ -42,7 +42,7 @@ test:
     - pip check
 
 about:
-  summary: 'icclim (Index Calculation CLIMate) is a python library for climate indices calculation.'
+  summary: icclim (Index Calculation CLIMate) is a python library for climate indices calculation.
   home: https://github.com/cerfacs-globc/icclim
   doc_url: https://icclim.readthedocs.io/
   dev_url: https://github.com/cerfacs-globc/icclim
