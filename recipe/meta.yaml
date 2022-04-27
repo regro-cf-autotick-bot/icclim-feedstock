@@ -29,7 +29,7 @@ requirements:
     - pyyaml
     - xarray
     - xclim >=0.34
-    - rechunker >=0.5
+    - rechunker >=0.3,<0.4
     - psutil
     - fsspec
 
