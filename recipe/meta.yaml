@@ -1,5 +1,5 @@
 {% set name = "icclim" %}
-{% set version = "5.2.0" %}
+{% set version = "5.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/icclim-{{ version }}.tar.gz
-  sha256: 56799bd9c7ab9ef80aaf3cc969428edf81e67a1d367a4ea2ec0621e6de19c830
+  sha256: b2670229233946f4e0c8f8b2cea048b6ffb6b4ab3e67c52d3b4f727ce84ccfad
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - pyyaml
     - xarray
     - xclim >=0.34
-    - rechunker >=0.3,<0.4
+    - rechunker >=0.3, !=0.4
     - psutil
     - fsspec
 
