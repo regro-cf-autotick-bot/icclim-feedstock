@@ -45,7 +45,7 @@ test:
     - pip check
 
 about:
-  summary: 'icclim (Index Calculation CLIMate) is a python library for climate indices calculation.'
+  summary: icclim (Index Calculation CLIMate) is a python library for climate indices calculation.
   home: https://github.com/cerfacs-globc/icclim
   doc_url: https://icclim.readthedocs.io/
   dev_url: https://github.com/cerfacs-globc/icclim

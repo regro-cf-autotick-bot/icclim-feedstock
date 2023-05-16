@@ -1,11 +1,11 @@
-About icclim
-============
+About icclim-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icclim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cerfacs-globc/icclim
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icclim-feedstock/blob/main/LICENSE.txt)
 
 Summary: icclim (Index Calculation CLIMate) is a python library for climate indices calculation.
 
