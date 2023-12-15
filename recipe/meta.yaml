@@ -27,7 +27,7 @@ requirements:
     - netCDF4
     - numpy
     - xarray
-    - xclim >=0.43, <=0.44
+    - xclim >=0.45
     - rechunker >=0.3, !=0.4
     - pandas >=1.3
     - dateparser
