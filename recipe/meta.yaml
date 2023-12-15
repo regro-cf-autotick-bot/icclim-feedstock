@@ -1,5 +1,5 @@
 {% set name = "icclim" %}
-{% set version = "6.4.0" %}
+{% set version = "6.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/icclim-{{ version }}.tar.gz
-  sha256: 35f2fcc56f13790344d2808a4cece556939ebfd3e38c3327349641a5d9b9b0bb
+  sha256: 7172a28b2ba316ac4b67e7bb8424102612f9ea76de54e45306399d37c5a28bc9 
 
 build:
   number: 0
@@ -26,14 +26,16 @@ requirements:
     - dask
     - netCDF4
     - numpy
-    - pyyaml
     - xarray
-    - xclim >=0.43, <=0.44
+    - xclim >=0.45
     - rechunker >=0.3, !=0.4
     - pandas >=1.3
     - dateparser
     - psutil
     - fsspec
+    - zarr
+    - pint
+    - jinja2
 
 test:
   requires:
